@@ -10,4 +10,6 @@
 
 3. For production environment
   - build the project firstly: `gulp build`
-  - copy /dist folder to your server and run: `NODE_ENV=production PORT=<port> node index.js`
+  - copy /dist folder to your server
+  - install production dependencies inside /dist folder: `npm install --production`
+  - start your server by: `NODE_ENV=production PORT=<port> node index.js`
